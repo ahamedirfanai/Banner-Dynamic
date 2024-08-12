@@ -1,0 +1,113 @@
+/* src/App.css */
+
+/* Basic reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Banner styles */
+.banner {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.banner a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.banner p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Dashboard styles */
+.dashboard {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #4caf50;
+}
+
+.dashboard label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.dashboard input[type="text"],
+.dashboard input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.dashboard input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.dashboard button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .dashboard input[type="text"],
+  .dashboard input[type="number"] {
+    width: 100%;
+  }
+}
