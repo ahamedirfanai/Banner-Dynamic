@@ -73,6 +73,3 @@ This project is a full stack web application built using Express, MySQL, and Rea
 - **Additional Features**: More time could allow for implementing features such as user authentication, advanced error handling, and enhanced UI/UX.
 - **Deployment**: Containerize the application using Docker and deploy it using Kubernetes for scalability.
 
-## License
-
-This project is licensed under the MIT License.
